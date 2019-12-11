@@ -5,11 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@android:mipmap/sym_def_app_icon"
     tools:context=".Dashboard">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="29dp"
+        android:textAlignment="center"
+        android:text="DICTIONARY APP"
+        android:textStyle="bold"
        />
 
     <Button
@@ -17,17 +22,26 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnAdd"
         android:text="Add Word"
-        android:textSize="20dp"
-        android:layout_margin="49dp"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:layout_marginTop="409dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:background="#3AA33E"
+        android:textColor="#fff"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Display Word"
-        android:textSize="20dp"
-        android:layout_margin="49dp"
-        android:id="@+id/btnSee"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginRight="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:background="#B8E08A"
+        android:id="@+id/btnDisplay"
         />
 
 </LinearLayout>
