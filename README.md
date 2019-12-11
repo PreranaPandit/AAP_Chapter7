@@ -1,7 +1,7 @@
 # AAP_Chapter7
-Data persistent
+- [x] Data persistent
 
-##Dictionary app using *hashmap*
+## Dictionary app using *hashmap*
 
 
 ![alt text](https://github.com/PreranaPandit/AAP_Chapter7/blob/master/one.PNG)
