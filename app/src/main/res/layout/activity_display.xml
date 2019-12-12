@@ -4,12 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8BC34A"
     android:orientation="vertical"
     tools:context=".DisplayActivity">
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:minHeight="20dp"
         android:id="@+id/lstDictionary"
         >
     </ListView>

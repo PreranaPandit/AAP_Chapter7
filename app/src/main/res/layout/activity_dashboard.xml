@@ -24,7 +24,7 @@
         android:text="Add Word"
         android:textSize="33dp"
         android:textStyle="bold"
-        android:layout_marginTop="409dp"
+        android:layout_marginTop="349dp"
         android:layout_marginRight="55dp"
         android:layout_marginLeft="55dp"
         android:background="#3AA33E"

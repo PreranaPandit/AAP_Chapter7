@@ -76,9 +76,8 @@ public class DisplayActivity extends AppCompatActivity implements AdapterView.On
         String meaning = dictionary.get(key);
 
         //Intent will call meaning from dictionaryactivity
-        Intent intent = new Intent(DisplayActivity.this, MainActivity.class);
-
-        //we have to pass the
+        Intent intent = new Intent(DisplayActivity.this, MeaningActivity.class);
+        //we have to pass the message from this activity to meaning activity
         intent.putExtra("meaning",meaning);
         startActivity(intent);
     }
